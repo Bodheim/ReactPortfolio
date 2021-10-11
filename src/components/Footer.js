@@ -1,6 +1,11 @@
 import React from 'react';
 
 function Footer() {
+  const mystyle = {
+    backgroundColor: '#BEFFC7',
+    padding: '10px',
+  };
+
   return (
     <>
       <footer
@@ -17,15 +22,15 @@ function Footer() {
         footer"
         style={{ backgroundColor: '#46b1c9' }}
       >
-        <span>
+        <span style={mystyle}>
           <a href="https://github.com/Bodheim" clasName="github">
             Github
           </a>
         </span>
-        <div>
+        <div style={mystyle}>
           <a className="phone">(865) 809-8085</a>
         </div>
-        <span>
+        <span style={mystyle}>
           <a href="mailto:abby.castelow@gmail.com" className="email">
             abby.castelow@gmail.com
           </a>
