@@ -1,6 +1,10 @@
 import React from 'react';
 
 export default function Projects() {
+  const mystyle = {
+    width: '50 %',
+  };
+
   return (
     <div>
       <div
@@ -30,14 +34,14 @@ export default function Projects() {
             <strong>Projects</strong>
           </h2>
           <div class="card-container">
-            <div class="card Venu">
+            <div class="card Venu" style={mystyle}>
               <div class="card-img-top">
                 <a
                   href="https://nickwojt.github.io/venu/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="./public/assets/images/venu.png" alt="Venu"></img>
+                  <img src="./assets/images/venu.png" alt="Venu"></img>
                 </a>
               </div>
               <div class="card-body">
@@ -64,14 +68,14 @@ export default function Projects() {
               </div>
             </div>
 
-            <div class="card Gathr">
+            <div class="card Gathr" style={mystyle}>
               <div class="card-img-top">
                 <a
                   href="https://shielded-mesa-10854.herokuapp.com/api/users/search/Coffee"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="./assets/images/Gathr2.png" alt="Gathr"></img>
+                  <img src="./assets/images/Gathr1.png" alt="Gathr"></img>
                 </a>
               </div>
               <div class="card-body">
@@ -98,14 +102,17 @@ export default function Projects() {
               </div>
             </div>
 
-            <div class="card NoteTaker">
+            <div class="card NoteTaker" style={mystyle}>
               <div class="card-img-top">
                 <a
                   href="https://murmuring-earth-99737.herokuapp.com/notes"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="./assets/images/NoteTaker.png" alt="Venu"></img>
+                  <img
+                    src="./assets/images/NoteTaker.png"
+                    alt="NoteTaker"
+                  ></img>
                 </a>
               </div>
               <div class="card-body">

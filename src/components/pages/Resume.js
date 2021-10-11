@@ -38,8 +38,9 @@ export default function Resume() {
 
         <div className="d-flex flex-column justify-content-center align-items-center col-md-10 col-12 text-center ms-5 me-5 mt-2 resumeIcons">
           <h2>
+            GitHub:
             <a href="https://github.com/Bodheim" target="no_blank">
-              <i class="bi-github" role="img" aria-label="GitHub"></i>
+              Bodheim
             </a>
           </h2>
         </div>
@@ -49,7 +50,7 @@ export default function Resume() {
             href="https://www.linkedin.com/in/abby-castelow/"
             target="no_blank"
           >
-            <img alt="LinkedIn" src="./assets/LI-In-Bug.pgn"></img>
+            LinkedIn
           </a>
         </div>
       </div>
