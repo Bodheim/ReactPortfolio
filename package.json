@@ -59,6 +59,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "css-loader": "^1.0.0",
+    "css-modules-typescript-loader": "^2.0.1",
+    "style-loader": "^0.23.1"
   }
 }
