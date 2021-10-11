@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import '../style.css';
 
 function SelectPage() {
   const [currentPage, setCurrentPage] = useState('Home');

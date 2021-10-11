@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style.css';
 
 function Footer() {
   return (
@@ -16,6 +15,7 @@ function Footer() {
         container-fluid
         navUL
         footer"
+        style={{ backgroundColor: '#46b1c9' }}
       >
         <span>
           <a href="https://github.com/Bodheim" clasName="github">

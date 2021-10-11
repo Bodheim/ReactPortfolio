@@ -1,13 +1,12 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import '../style.css';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <>
-      <Navbar class="navbar">
+      <Navbar class="navbar" style={{ backgroundColor: '#46b1c9' }}>
         <Navbar.Brand className="ps-2 ms-3">Abby Castelow</Navbar.Brand>
         <Nav>
           <Nav.Link
