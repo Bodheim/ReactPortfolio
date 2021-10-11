@@ -14,8 +14,7 @@ function Footer() {
         text-center
         container-fluid
         navUL
-        footer
-        bg-secondary"
+        footer"
       >
         <span>
           <a href="https://github.com/Bodheim" clasName="github">
