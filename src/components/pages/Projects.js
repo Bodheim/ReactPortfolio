@@ -32,8 +32,12 @@ export default function Projects() {
           <div class="card-container">
             <div class="card Venu">
               <div class="card-img-top">
-                <a href="https://nickwojt.github.io/venu/" target="_blank">
-                  <img src="./assets/images/venu.png" alt="Venu"></img>
+                <a
+                  href="https://nickwojt.github.io/venu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="./public/assets/images/venu.png" alt="Venu"></img>
                 </a>
               </div>
               <div class="card-body">
@@ -43,6 +47,7 @@ export default function Projects() {
                     href="https://github.com/nickwojt/venu"
                     class="card-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
@@ -51,6 +56,7 @@ export default function Projects() {
                     href="https://nickwojt.github.io/venu/"
                     class="card-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live App
                   </a>
@@ -63,6 +69,7 @@ export default function Projects() {
                 <a
                   href="https://shielded-mesa-10854.herokuapp.com/api/users/search/Coffee"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img src="./assets/images/Gathr2.png" alt="Gathr"></img>
                 </a>
@@ -74,6 +81,7 @@ export default function Projects() {
                     href="https://github.com/bcbridges/Gathr"
                     class="card-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
@@ -82,6 +90,7 @@ export default function Projects() {
                     href="https://shielded-mesa-10854.herokuapp.com/api/users/search/Coffee"
                     class="card-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live App
                   </a>
@@ -94,6 +103,7 @@ export default function Projects() {
                 <a
                   href="https://murmuring-earth-99737.herokuapp.com/notes"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img src="./assets/images/NoteTaker.png" alt="Venu"></img>
                 </a>
@@ -105,6 +115,7 @@ export default function Projects() {
                     href="https://github.com/Bodheim/NoteTaker"
                     class="card-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Repo
                   </a>
@@ -113,6 +124,7 @@ export default function Projects() {
                     href="https://murmuring-earth-99737.herokuapp.com/notes"
                     class="card-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live App
                   </a>

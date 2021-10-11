@@ -15,17 +15,16 @@ function Footer() {
         container-fluid
         navUL
         footer
-        bg-dark"
-        style="background-color: #46B1C9;"
+        bg-secondary"
       >
         <span>
           <a href="https://github.com/Bodheim" clasName="github">
             Github
           </a>
         </span>
-        <span>
+        <div>
           <a className="phone">(865) 809-8085</a>
-        </span>
+        </div>
         <span>
           <a href="mailto:abby.castelow@gmail.com" className="email">
             abby.castelow@gmail.com

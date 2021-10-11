@@ -31,11 +31,6 @@ export default function Resume() {
             target="no_blank"
             download
           >
-            <i
-              class="bi bi-file-earmark-arrow-down-fill"
-              role="img"
-              aria-label="Resume"
-            ></i>
             {'\n'} Download {'\n'} Resume {'\n'}
           </a>
         </div>
@@ -43,7 +38,7 @@ export default function Resume() {
         <div className="d-flex flex-column justify-content-center align-items-center col-md-10 col-12 text-center ms-5 me-5 mt-2 resumeIcons">
           <h2>
             <a href="https://github.com/Bodheim" target="no_blank">
-              <i class="bi-github" role="img" aria-label="GitHub"></i>
+              <img alt="GitHub" src="./assets/images/Github.pgn"></img>
             </a>
           </h2>
         </div>
@@ -53,7 +48,7 @@ export default function Resume() {
             href="https://www.linkedin.com/in/abby-castelow/"
             target="no_blank"
           >
-            <i class="bi bi-linkedin" role="img" aria-label="LinkedIn"></i>
+            <img alt="LinkedIn" src="./assets/images/LI-In-Bug.pgn"></img>
           </a>
         </div>
       </div>
