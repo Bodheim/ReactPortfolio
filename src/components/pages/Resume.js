@@ -1,6 +1,5 @@
 import React from 'react';
-import { Icon } from '@fortawesome/react-fontawesome';
-import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+import { FaGithub } from '@react-icons/all-files/fa/FaGithub';
 
 export default function Resume() {
   return (
