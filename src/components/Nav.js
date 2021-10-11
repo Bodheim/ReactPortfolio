@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
-  const { mystyle } = {
+  const mystyle = {
     backgroundColor: '#BEFFC7',
   };
 
@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href=""
             onClick={() => handlePageChange('Home')}
             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-            style={{ mystyle }}
+            style={mystyle}
           >
             Home
           </Nav.Link>
@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === 'Projects' ? 'nav-link active' : 'nav-link'
             }
-            style={{ mystyle }}
+            style={mystyle}
           >
             Projects
           </Nav.Link>
@@ -37,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
             }
-            style={{ mystyle }}
+            style={mystyle}
           >
             Contact
           </Nav.Link>
@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             className={
               currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
             }
-            style={{ mystyle }}
+            style={mystyle}
           >
             Resume
           </Nav.Link>

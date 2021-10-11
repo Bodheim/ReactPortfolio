@@ -1,4 +1,6 @@
 import React from 'react';
+import { Icon } from '@fortawesome/react-fontawesome';
+import { FaGithub } from 'react-icons/fa';
 
 export default function Resume() {
   return (
@@ -38,7 +40,7 @@ export default function Resume() {
         <div className="d-flex flex-column justify-content-center align-items-center col-md-10 col-12 text-center ms-5 me-5 mt-2 resumeIcons">
           <h2>
             <a href="https://github.com/Bodheim" target="no_blank">
-              <img alt="GitHub" src="./assets/GitHub.pgn"></img>
+              <Icon icon={FaGithub}></Icon>
             </a>
           </h2>
         </div>
