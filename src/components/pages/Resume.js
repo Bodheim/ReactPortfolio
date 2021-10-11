@@ -39,7 +39,7 @@ export default function Resume() {
         <div className="d-flex flex-column justify-content-center align-items-center col-md-10 col-12 text-center ms-5 me-5 mt-2 resumeIcons">
           <h2>
             <a href="https://github.com/Bodheim" target="no_blank">
-              <img icon={FaGithub}></img>
+              <i class="bi-github" role="img" aria-label="GitHub"></i>
             </a>
           </h2>
         </div>
